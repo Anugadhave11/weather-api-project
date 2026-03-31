@@ -28,7 +28,7 @@ I wanted to learn how backend systems integrate with external APIs and how data 
 
 # API Demo
 
-![API Screenshot](weather%20api.jpg)
+![API Screenshot](screenshot.jpg)
 
 # Sample Output
 
