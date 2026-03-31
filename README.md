@@ -2,14 +2,18 @@
 
 # Overview
 
-This is a backend API built using FastAPI that fetches real-time weather data, stores it, and provides a simple chat-based interface.
+This project is a backend API built using FastAPI that fetches real-time weather data, stores it, and provides a simple chat-based interface.
+
+# Why I built this
+
+I wanted to learn how backend systems integrate with external APIs and how data can be stored and retrieved efficiently.
 
 # Features
 
-* Get live weather data from external API
+* Get live weather data using external API
 * Save weather data with timestamp
 * Retrieve stored data
-* Simple chat endpoint (`/chat`)
+* Chat-based weather query (`/chat` endpoint)
 
 # Tech Stack
 
@@ -21,6 +25,10 @@ This is a backend API built using FastAPI that fetches real-time weather data, s
 
 * main.py → API logic
 * data.json → stored data
+
+# API Demo
+
+![API Screenshot](weather api.jpg)
 
 # Sample Output
 
@@ -43,10 +51,9 @@ uvicorn main:app --reload
 Open:
 http://127.0.0.1:8000/docs
 
-## 📈 Learning Outcome
+# Learning Outcome
 
 * API development
 * API integration
-* Data handling
-* Backend fundamentals
-
+* Backend concepts
+* JSON handling
